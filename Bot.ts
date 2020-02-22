@@ -32,7 +32,7 @@ export class Bot {
 
         this.services.push(new ConsoleService(this.input));
         this.services.push(new DiscordService(this.input));
-        this.services.push(new WebsiteService());
+        //this.services.push(new WebsiteService());
         //this.services.push(new FBService(this.input)); //Gets banned rapidly, not worthwhile
         //this.modules.push (new CopyCatModule(/* Give config*/));
         this.modules.push(new ReplyModule());
