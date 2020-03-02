@@ -17,7 +17,7 @@ export class ReplyModule implements Module {
         this.responses.push(new MessageAndReply(/go[o]+d[\s|-]+night bo/gi,"goodnight 🌃"));
         this.responses.push(new MessageAndReply(/go[o]+d[\s|-]+morning bo/gi,"goodmorning 🌞"));
         //this.responses.push(new MessageAndReply(/(hey|hello|yo|wassup)\sbo/gi,"hi!")); Needs tuning
-        this.responses.push(new MessageAndReply(/y(\s)*e(\s)*e(\s)*(e|\s)*(\s)*t/gi,"YEET"));
+        this.responses.push(new MessageAndReply(/y(\s)*e(\s)*e(\s)*(e|\s)*(\s)*t/gi,"YEEEET"));
     }
     /**
      * Does nothing
